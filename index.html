@@ -3,7 +3,8 @@
   <title>DOG CLOCK</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
 
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -15,14 +16,15 @@
 
     <h4>
       WHAT TIME IS IT?? <br>
-      <span id="clock">Clock goes here</span>
+      <span id="clock"> <!--clock goes here--> </span>
     </h4>
 
-    <img id="lolcat" src="img/all-time.jpg" alt="Cute dog">
+    <img id="main-image" src="img/all-time.jpg" alt="Cute dog">
 
-    <blockquote id="timeEvent">This is where time events are reported</blockquote>
+    <!--This is where time events are reported-->
+    <blockquote id="timeEvent"></blockquote>
 
-
+    <!--Time Selectors-->
     set Wake Up Time
     <select id="wakeUpTimeSelector">
       <option value="1">1 AM - 2AM</option>
@@ -30,9 +32,9 @@
       <option value="3">3 AM - 4AM</option>
       <option value="4">4 AM - 5AM</option>
       <option value="5">5 AM - 6AM</option>
-      <option value="6">6 AM - 7AM</option>
+      <option value="6" selected>6 AM - 7AM</option>
       <option value="7">7 AM - 8AM</option>
-      <option value="8" selected>8 AM - 9AM</option>
+      <option value="8">8 AM - 9AM</option>
       <option value="9">9 AM - 10AM</option>
       <option value="10">10 AM - 11AM</option>
       <option value="11">11 AM - 12PM</option>
@@ -64,8 +66,8 @@
         <option value="9">9 AM - 10AM</option>
         <option value="10">10 AM - 11AM</option>
         <option value="11">11 AM - 12PM</option>
-        <option value="12" selected>12 PM - 1PM</option>
-        <option value="13">1 PM - 2PM</option>
+        <option value="12">12 PM - 1PM</option>
+        <option value="13" selected>1 PM - 2PM</option>
         <option value="14">2 PM - 3PM</option>
         <option value="15">3 PM - 4PM</option>
         <option value="16">4 PM - 5PM</option>
@@ -107,7 +109,7 @@
       <option value="24">12 AM - 1AM</option>
       </select>
     <br>
-    <button id="partyTimeButton">Party Time!</button>
+    <button id="partyTimeButton">Click to Start the PARTY!</button>
 
     <footer>
       <p>&copy; Skillcrush 2016</p>
