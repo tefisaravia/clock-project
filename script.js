@@ -8,7 +8,7 @@ var partyTime = 17; // 5PM
 var evening = 18; // 6PM
 var sleepTime = 21; // 9PM
 var messageText;
-var image = "img/all-time.jpg";
+var image = "img/lunch-time.jpg";
 var timeEvent = document.getElementById ("timeEvent");
 var imageJS = document.getElementById("main-image");
 var isPartyTime = false;

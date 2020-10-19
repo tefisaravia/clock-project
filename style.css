@@ -11,7 +11,7 @@ body {
 }
 body {
   font: 14px/26px 'Lato', sans-serif;
-  color: #222;
+  color: #2A2A72;
   margin: 0px;
   padding: 0px;
   text-transform: uppercase;
@@ -23,8 +23,8 @@ header{
 h4 {
   color: #2A2A72;
   font: 21px 'Lato', sans-serif;
-  font-weight: 400;
   font-style: italic;
+  font-weight: 900;
 }
 h4 #clock {
   color: #FFA400;
@@ -37,6 +37,10 @@ h1 {
   font: 50px 'Luckiest Guy', cursive;
   text-shadow: 3px 3px white;
   
+}
+
+p {
+  display: inline;
 }
 
 blockquote {
@@ -61,6 +65,9 @@ blockquote:after { content: '"'; }
   width: 500px;
 }
 #wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
+  color: #2A2A72;
+  background-color: #FFA400;
+  margin: 5px;
   padding: 10px 0;
 }
 #partyTimeButton {
