@@ -1,12 +1,11 @@
 body {
-  background-color: #0096c7;
+  background-color: white;
 }
 .page {
   width: 80%;
   max-width: 960px;
   margin: 50px auto;
   text-align: center;
-  background-color: #0096c7;
   border-radius: 5px;
 }
 body {
